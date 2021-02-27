@@ -168,8 +168,8 @@ end;
 
 procedure TMainForm.Button1Click(Sender: TObject);
 begin
-  DrawPoints.Clear;
-  PaintBox1.Repaint;
+  DrawPoints.Clear;       //リストクリア
+  PaintBox1.Repaint;    　//再描画
 end;
 
 procedure TMainForm.Button2Click(Sender: TObject);
